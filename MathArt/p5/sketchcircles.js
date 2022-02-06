@@ -6,15 +6,13 @@ let t2 = 0;
 let c2 = 20;
 
 function setup() {
-    var myCanvas = createCanvas(500, 500, WEBGL);
-    myCanvas.parent("polarcircles")
+    createCanvas(500, 500, WEBGL);
     background(0);
 }
 
 function draw() {
-    //background(0);
     push();
-    //translate(width/2, height/2);
+    
     let x1 = r1 + c1*cos(t1);
     let y1 = r1 + c1*sin(t1);
     
