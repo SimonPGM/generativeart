@@ -1,2 +1,2 @@
-# generativeart
-Arte generativo
+# Rama mathart
+
